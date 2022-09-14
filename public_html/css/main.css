@@ -1,0 +1,287 @@
+/* CSS was compressed using: https://www.toptal.com/developers/cssminifier */
+/* @import url(https://fonts.googleapis.com/css2?family=Nunito&display=swap);.subtitle,.title,p{line-height:1.6}p,section{margin-bottom:1rem}body{font-family:Nunito,sans-serif}.hero{background-color:#e3f5f3}.home-title{padding-bottom:1rem}p{padding-right:1rem;max-width:40rem}figcaption{margin-top:1rem}.project-figcaption{color:#979797}.navbar{padding-top:4rem;padding-bottom:2rem}.navbar a,span{font-size:1.25rem}.navbar,.navbar-item,a{color:#4d9990}.navbar-item,.recent-project-link{margin:1rem}.navbar a:hover,.navbar-item a:hover{color:#4dc6b7;text-underline-offset:0.5rem}.navbar a:focus,.subtitle-link a:focus{color:#e3f5f3;background-color:#4dc6b7}@media screen and (min-width:1rem){.navbar,.navbar-end,.navbar-menu,.navbar-start,.overview-list{align-items:stretch;display:flex}.navbar{min-height:3.25rem}}@media screen and (max-width:20rem){.navbar-item{margin:.5rem;padding:.5rem}}.biography,.intro-container{margin-left:1rem}.navbar-start{flex-grow:1}.navbar-end a{display:block}a:hover,a:hover figcaption{color:#4dc6b7;text-decoration:underline;text-underline-offset:0.25rem}.more-works a:focus,.recent-project-link a:focus,a:focus,a:focus figcaption,a:focus img,footer a:focus{color:#e3f5f3;background-color:#4dc6b7;outline:#6674ef solid .2rem}.subtitle-link a{color:#1f7f88}.subtitle-link a:hover{color:#4dc6b7;text-decoration:underline}footer{margin-top:5rem;padding:1rem 1rem 1rem 2rem;border-top:.0625rem solid #979797}.footer-first-level{font-size:.9rem;margin-top:.5rem;margin-bottom:2.5rem}.footer-second-level{font-size:.7rem;margin-top:.5rem;margin-bottom:.5rem}.biography,.image-thumbnail,.more-works{margin-top:2rem}.recent_project_container,.works-nokia{background-color:#eef6f5}.image-container{position:relative;margin-top:2rem}.image-container img:hover{transform:scale(1.09);transition-duration:.5s}.intro-container{margin-top:1rem}.works{margin-top:2rem;margin-bottom:2rem}.works-section{margin-top:4rem;margin-bottom:4rem;padding:3rem 2rem}.project-thumbnails{margin-top:1.5rem;margin-bottom:5rem}.figure-container,.project-thumbnail{margin-bottom:3rem}.project-thumbnail{margin-right:1rem}@media screen and (min-width:63.9375rem){.project-thumbnail{margin-right:3rem}}.image-thumbnail img:hover{transform:scale(1.1);transition-duration:.5s}.subtitle:not(:last-child){margin-bottom:.5rem}.list-section{margin-bottom:2rem} */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.hero{
+    background-color: #E3F5F3; 
+}
+
+/************************************** TYPOGRAPHY START*************************************/
+
+.title, .subtitle {
+    line-height: 1.4;
+    
+}
+.title{
+  font-family: 'Lora', serif;
+  font-weight: 500;  
+  padding-bottom: 1rem;
+}
+
+p {
+    /* padding-right: 1rem; */
+    margin-bottom: 1rem;
+    max-width: 40rem;
+    line-height: 1.6;
+}
+
+figcaption{
+    margin-top: 1rem;
+}
+.project-figcaption{
+    color:#979797;
+    font-style: italic;
+}
+
+/************************************** TYPOGRAPHY END*************************************/
+
+/************************************** NAVBAR START*************************************/
+
+.navbar {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    
+}
+.navbar a{
+    font-size: 1.25rem;
+}
+
+.navbar, .navbar-item {
+    color: #4D9990; 
+}
+.navbar-item{
+    margin:1rem;
+}
+
+.navbar a:hover,
+.navbar-item a:hover {
+    color: #4DC6B7;
+    text-underline-offset: 0.5rem;
+}
+.navbar a:focus {
+    color: #E3F5F3; 
+    background-color: #4DC6B7;
+}
+
+@media screen and (min-width: 1rem) {
+    .navbar,
+    .navbar-end,
+    .navbar-menu,
+    .navbar-start,
+    .overview-list {
+        align-items: stretch;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1rem) {
+    .navbar {
+        min-height: 3.25rem;
+    }
+}
+@media screen and (max-width: 20rem) {
+    .navbar-item {
+        margin: 0.5rem;
+        padding:0.5rem;
+    }
+}
+
+.navbar-start{
+    flex-grow: 1
+}
+.navbar-end a{
+    display: block;
+} 
+
+
+/************************************** NAVBAR END*************************************/
+
+
+
+/************************************** LINKS START*************************************/
+a{
+    color: #4D9990; 
+}
+a:hover, a:hover figcaption{
+    color: #4DC6B7;
+    text-decoration: underline;
+    text-underline-offset: 0.25rem;
+}
+a:focus, a:focus img, a:focus figcaption{
+ color: #E3F5F3;
+   background-color: #4DC6B7;
+   outline:0.2rem solid #6674ef;
+}
+
+.subtitle-link a {
+    color: #1f7f88;
+}
+
+.subtitle-link a:hover {
+    color: #4DC6B7;
+    text-decoration: underline;
+}
+.subtitle-link a:focus {
+    color: #E3F5F3;
+   background-color: #4DC6B7;
+}
+
+span{
+    font-size: 1.25rem;
+}
+/************************************** LINKS ENDS*************************************/
+
+
+
+/************************************** FOOTER start *************************************/
+
+footer {
+    margin-top: 5rem; 
+    padding: 1rem;
+    padding-left: 2rem;
+    border-top: 0.0625rem solid #979797;
+}
+footer a:focus{
+    color: #E3F5F3;
+   background-color: #4DC6B7;
+   outline:0.2rem solid #6674ef;
+}
+
+.footer-first-level {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.footer-second-level {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/************************************** FOOTER end *************************************/
+
+/************************************** HOME PAGE start *************************************/
+.home-subtitle{
+    max-width: 60rem;
+}
+
+.biography {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.more-works a:focus,
+.recent-project-link a:focus{
+    color: #E3F5F3;
+    background-color: #4DC6B7;
+    outline:0.2rem solid #6674ef;
+}
+
+/* .recent_project_container{
+    background-color: #EEF6F5;
+} */
+
+.image-container{
+    position:relative;
+    margin-top: 2rem;
+}
+.image-container img:hover{
+    transform: scale(1.09);
+    transition-duration: 0.5s;
+}
+
+.recent-project-link {
+    margin: 1rem;
+}
+
+.more-works {
+    margin-top: 2rem;
+}
+
+
+/************************************** HOME PAGE end *************************************/
+
+
+/******************************* WORKS *********************************/
+
+
+.intro-container {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.works {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.works-section {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    padding-top: 3rem;
+    padding-bottom:3rem;
+}
+
+.works-nokia {
+    background-color: #EEF6F5;  
+}
+
+.project-thumbnails{
+    margin-top: 1.5rem;
+    margin-bottom:5rem;
+}
+
+.project-thumbnail{
+    margin-right:1rem;
+    margin-bottom: 3rem;
+}
+@media screen and (min-width: 63.9375rem) {
+    .project-thumbnail {
+        margin-right:3rem;
+    }
+}
+
+.image-thumbnail{
+    margin-top: 2rem;
+
+}
+/* source: https://www.codegrepper.com/code-examples/css/resize+image+slowly+on+hover */
+.image-thumbnail img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+/******************************* PROJECTS *********************************/
+section {
+    margin-bottom: 1rem;
+
+}
+.figure-container{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.subtitle:not(:last-child){
+    margin-bottom: 0.5rem;
+}
+.list-section{
+    margin-bottom:2rem;
+}
+
+.coming-soon{
+    margin-bottom: 6rem;
+}
+figure{
+    margin-top: 3rem;
+}
+.step-subtitle{
+    padding-bottom: 1rem;
+}
