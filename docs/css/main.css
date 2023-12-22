@@ -71,8 +71,10 @@ figcaption{
     text-underline-offset: 0.5rem;
 }
 .navbar a:focus {
-    color: #E3F5F3; 
-    background-color: #4DC6B7;
+    /* color: #E3F5F3; 
+    background-color: #4DC6B7; */
+    color: #4DC6B7;
+    text-underline-offset: 0.5rem;
 }
 
 @media screen and (min-width: 1rem) {
@@ -120,9 +122,10 @@ a:hover, a:hover figcaption{
     text-underline-offset: 0.25rem;
 }
 a:focus, a:focus img, a:focus figcaption{
- color: #E3F5F3;
-   background-color: #4DC6B7;
+    /* color: #E3F5F3;
+   background-color: #4DC6B7; */
    outline:0.2rem solid #6674ef;
+   color: #4DC6B7;
 }
 
 .subtitle-link a {
@@ -133,10 +136,10 @@ a:focus, a:focus img, a:focus figcaption{
     color: #4DC6B7;
     text-decoration: underline;
 }
-.subtitle-link a:focus {
+/* .subtitle-link a:focus {
     color: #E3F5F3;
    background-color: #4DC6B7;
-}
+} */
 
 span{
     font-size: 1.25rem;
@@ -154,9 +157,10 @@ footer {
     border-top: 0.0625rem solid #979797;
 }
 footer a:focus{
-    color: #E3F5F3;
-   background-color: #4DC6B7;
+    /* color: #E3F5F3;
+   background-color: #4DC6B7; */
    outline:0.2rem solid #6674ef;
+   color: #4DC6B7;
 }
 
 .footer-first-level {
@@ -185,8 +189,8 @@ footer a:focus{
 
 .more-works a:focus,
 .recent-project-link a:focus{
-    color: #E3F5F3;
-    background-color: #4DC6B7;
+    /* color: #E3F5F3;
+    background-color: #4DC6B7; */
     outline:0.2rem solid #6674ef;
 }
 
@@ -199,7 +203,8 @@ footer a:focus{
     margin-top: 2rem;
 }
 .image-container img:hover{
-    transform: scale(1.09);
+    /* transform: scale(1.09); */
+    transform: translateY(-1rem);
     transition-duration: 0.5s;
 }
 
@@ -261,7 +266,7 @@ footer a:focus{
 }
 /* source: https://www.codegrepper.com/code-examples/css/resize+image+slowly+on+hover */
 .image-thumbnail img:hover{
-    transform: scale(1.1);
+    transform: translateY(-1rem);
     transition-duration: 0.5s;
 }
 
