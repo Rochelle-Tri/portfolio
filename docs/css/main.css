@@ -7,7 +7,8 @@
 
 /* change the highlight colour of the text when selected */
 ::selection{
- background: #4DC6B7;   
+ background: #4DC6B7;
+ color: #f3faf9;    
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 }
 
 .hero{
-    background-color: #E3F5F3; 
+    background-color: #F0FBF9; 
 }
 
 /************************************** TYPOGRAPHY START*************************************/
@@ -152,8 +153,8 @@ span{
 
 footer {
     margin-top: 5rem; 
-    padding: 1rem;
-    padding-left: 2rem;
+    padding: 2rem;
+    margin-left: 2rem;
     border-top: 0.0625rem solid #979797;
 }
 footer a:focus{
@@ -166,7 +167,7 @@ footer a:focus{
 .footer-first-level {
     font-size: 0.9rem;
     margin-top: 0.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .footer-second-level {
@@ -201,11 +202,16 @@ footer a:focus{
 .image-container{
     position:relative;
     margin-top: 2rem;
+    filter: grayscale(60%);
+    transition: filter 0.5s ease-in-out;
 }
 .image-container img:hover{
     /* transform: scale(1.09); */
     transform: translateY(-1rem);
     transition-duration: 0.5s;
+}
+.image-container:hover{
+    filter: grayscale(0%);
 }
 
 .recent-project-link {
@@ -234,41 +240,47 @@ footer a:focus{
 }
 
 .works-section {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 2rem;
-    padding-top: 3rem;
-    padding-bottom:3rem;
+    /* padding-top: 3rem;
+    padding-bottom:3rem; */
 }
 
-.works-nokia {
+/* .works-nokia {
     background-color: #EEF6F5;  
-}
+} */
 
 .project-thumbnails{
     margin-top: 1.5rem;
-    margin-bottom:5rem;
+    margin-bottom:6rem;
 }
 
 .project-thumbnail{
-    margin-right:1rem;
+    /* margin-right: 4rem; */
     margin-bottom: 3rem;
 }
+
 @media screen and (min-width: 63.9375rem) {
     .project-thumbnail {
-        margin-right:3rem;
+        margin-right:5rem;
     }
 }
 
 .image-thumbnail{
     margin-top: 2rem;
-
+    filter: grayscale(60%);
+    transition: filter 0.5s ease-in-out;
 }
 /* source: https://www.codegrepper.com/code-examples/css/resize+image+slowly+on+hover */
 .image-thumbnail img:hover{
     transform: translateY(-1rem);
-    transition-duration: 0.5s;
+    transition-duration: 0.5s; 
 }
+.image-thumbnail:hover{
+    filter: grayscale(0%);
+}
+
 
 /******************************* PROJECTS *********************************/
 section {
