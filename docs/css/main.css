@@ -202,7 +202,7 @@ footer a:focus{
 .image-container{
     position:relative;
     margin-top: 2rem;
-    filter: grayscale(60%);
+    filter: grayscale(40%);
     transition: filter 0.5s ease-in-out;
 }
 .image-container img:hover{
@@ -269,7 +269,7 @@ footer a:focus{
 
 .image-thumbnail{
     margin-top: 2rem;
-    filter: grayscale(60%);
+    filter: grayscale(40%);
     transition: filter 0.5s ease-in-out;
 }
 /* source: https://www.codegrepper.com/code-examples/css/resize+image+slowly+on+hover */
