@@ -122,7 +122,7 @@ a:hover, a:hover figcaption{
     text-decoration: underline;
     text-underline-offset: 0.25rem;
 }
-a:focus, a:focus img, a:focus figcaption{
+a:focus, a:focus figcaption{
     /* color: #E3F5F3;
    background-color: #4DC6B7; */
    outline:0.2rem solid #6674ef;
@@ -154,7 +154,7 @@ span{
 footer {
     margin-top: 5rem; 
     padding: 2rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     border-top: 0.0625rem solid #979797;
 }
 footer a:focus{
