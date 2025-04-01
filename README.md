@@ -1,4 +1,4 @@
-# Rochelle Tri's Portfolio for IAT 339
+# Rochelle Tri's Portfolio
 
 This portfolio was coded by Rochelle with the help of the framework, Bulma: https://bulma.io/
 
