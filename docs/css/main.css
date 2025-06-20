@@ -30,6 +30,16 @@ body {
   font-weight: 500;  
   padding-bottom: 1rem;
 }
+.small-title{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    margin-top: 0.25rem; 
+  }
+  .quote{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+  }
 
 p {
     /* padding-right: 1rem; */
@@ -39,7 +49,7 @@ p {
 }
 
 figcaption{
-    margin-top: 1rem;
+    margin-top: 0.25rem;
 }
 .project-figcaption{
     color:#979797;
@@ -225,8 +235,16 @@ footer a:focus{
 
 /************************************** HOME PAGE end *************************************/
 
+/************************************** ABOUT PAGE start *************************************/
 
-/******************************* WORKS *********************************/
+.about-container{
+    margin-right: 2rem;
+}
+
+/************************************** ABOUT PAGE end *************************************/
+
+
+/******************************* WORKS (apart of index now) *********************************/
 
 
 .intro-container {
@@ -235,14 +253,14 @@ footer a:focus{
 }
 
 .works {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .works-section {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     /* padding-top: 3rem;
     padding-bottom:3rem; */
 }
@@ -253,17 +271,12 @@ footer a:focus{
 
 .project-thumbnails{
     margin-top: 1.5rem;
-    margin-bottom:6rem;
-}
-
-.project-thumbnail{
-    /* margin-right: 4rem; */
-    margin-bottom: 3rem;
+    margin-bottom:1.5rem;
 }
 
 @media screen and (min-width: 63.9375rem) {
     .project-thumbnail {
-        margin-right:5rem;
+        margin-right:2rem;
     }
 }
 
