@@ -28,8 +28,19 @@ body {
 .title{
   font-family: 'Lora', serif;
   font-weight: 500;  
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
+.small-title{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    margin-top: 0.25rem; 
+  }
+
+  .quote{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+  }
 
 p {
     /* padding-right: 1rem; */
@@ -37,9 +48,12 @@ p {
     max-width: 40rem;
     line-height: 1.6;
 }
+.small-paragraph{
+    font-size: 0.8rem;
+}
 
 figcaption{
-    margin-top: 1rem;
+    margin-top: 0.25rem;
 }
 .project-figcaption{
     color:#979797;
@@ -64,6 +78,12 @@ figcaption{
 }
 .navbar-item{
     margin:1rem;
+}
+
+.navbar-item img {
+  max-height: 3rem; /* adjust as needed */
+  height: auto;
+  width: auto;
 }
 
 .navbar a:hover,
@@ -178,7 +198,7 @@ footer a:focus{
 
 /************************************** FOOTER end *************************************/
 
-/************************************** HOME PAGE start *************************************/
+/************************************** HOME PAGE (ind start *************************************/
 .home-subtitle{
     max-width: 60rem;
 }
@@ -214,19 +234,30 @@ footer a:focus{
     filter: grayscale(0%);
 }
 
-.recent-project-link {
+/* .recent-project-link {
     margin: 1rem;
 }
 
 .more-works {
     margin-top: 2rem;
-}
+} */
 
 
 /************************************** HOME PAGE end *************************************/
 
+/************************************** ABOUT PAGE start *************************************/
 
-/******************************* WORKS *********************************/
+.about-container{
+    margin-right: 2rem;
+}
+.about-text-container{
+    max-width: 40rem;
+}
+
+/************************************** ABOUT PAGE end *************************************/
+
+
+/******************************* WORKS (apart of index now) *********************************/
 
 
 .intro-container {
@@ -235,14 +266,14 @@ footer a:focus{
 }
 
 .works {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .works-section {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 2rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    padding: 1rem;
     /* padding-top: 3rem;
     padding-bottom:3rem; */
 }
@@ -253,23 +284,18 @@ footer a:focus{
 
 .project-thumbnails{
     margin-top: 1.5rem;
-    margin-bottom:6rem;
-}
-
-.project-thumbnail{
-    /* margin-right: 4rem; */
-    margin-bottom: 3rem;
+    margin-bottom:1.5rem;
 }
 
 @media screen and (min-width: 63.9375rem) {
     .project-thumbnail {
-        margin-right:5rem;
+        margin-right:2rem;
     }
 }
 
 .image-thumbnail{
     margin-top: 2rem;
-    filter: grayscale(40%);
+    filter: grayscale(30%);
     transition: filter 0.5s ease-in-out;
 }
 /* source: https://www.codegrepper.com/code-examples/css/resize+image+slowly+on+hover */
@@ -283,28 +309,46 @@ footer a:focus{
 
 
 /******************************* PROJECTS *********************************/
-section {
-    margin-bottom: 1rem;
-
+.section {
+    /* margin-bottom: 1rem; */
+    padding: 1.5rem;
 }
+
 .figure-container{
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .subtitle:not(:last-child){
     margin-bottom: 0.5rem;
 }
 .list-section{
-    margin-bottom:2rem;
+    margin-bottom:1rem;
 }
 
 .coming-soon{
     margin-bottom: 6rem;
 }
-figure{
+/* figure{
     margin-top: 3rem;
-}
+} */
 .step-subtitle{
     padding-bottom: 1rem;
+}
+
+.pdf-container {
+  position: relative;
+  width: 60%;
+  padding-top: calc(60% * 1.4142); /* 8.5in x 11in = 0.77 (height/width), so use 141.42% for portrait */
+  height: 0;
+  overflow: hidden;
+}
+
+.pdf-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
