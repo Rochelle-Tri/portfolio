@@ -31,6 +31,9 @@
             <div class="navbar-item ">
                 <a href="../index.html"> Works </a>
             </div>
+            <div class="navbar-item ">
+                <a href="gallery.html"> Gallery </a>
+            </div>
             <div class="navbar-item">
                 <a href="about.html"> About </a>
             </div>
@@ -187,34 +190,6 @@
         </div>
     </footer>
     <!-- FOOTER END -->
-
-    <!-- Javascript to lazy load the localization pdf -->
-    <script>
-        const observer = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const container = entry.target;
-                    const pdfURL = container.dataset.pdf;
-
-                    const iframe = document.createElement("iframe");
-                    iframe.src = pdfURL;
-                    iframe.title = "PDF Preview";
-                    iframe.setAttribute("tabindex", "-1");
-                    iframe.loading = "lazy";
-
-                    container.appendChild(iframe);
-                    observer.unobserve(container);
-                }
-            });
-        }, {
-            rootMargin: "100px"
-        });
-
-        const target = document.getElementById("pdf-placeholder");
-        if (target) {
-            observer.observe(target);
-        }
-    </script>
 </body>
 
 </html>
